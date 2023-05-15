@@ -1,0 +1,82 @@
+.vartical{
+    border: 1px solid #9ca0a0;
+    height: 1000px;
+    position: absolute;
+    left: 70.3%;
+}
+
+.confirm{
+    background-color: rgb(165, 241, 216);
+   
+}
+.visa{
+    background-color: rgb(215, 245, 245);
+}
+.mtext{
+    background-color: rgb(135, 234, 247);
+}
+.flogo{
+    background-color: rgb(202, 204, 203);
+
+}
+.locklogo{
+    background-color: aliceblue;
+}
+.btn{
+    background-color: rgb(234, 238, 238);
+}
+.trave{
+    background-color: rgb(155, 241, 213);
+}
+.form-select{
+    display: inline;
+    width: 70%;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.select-sta{
+    display: block;
+    width: 100%;
+}
+.child{
+    background-color: rgb(175, 206, 196);
+}
+.caltext {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+   
+}
+@media (max-width:800px){
+    .text-center {
+        text-align: center!important;
+        margin-bottom: 10px !important;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        margin-bottom: 10px !important;
+    }
+    .form-select {
+        display: inline;
+        width: 70%;
+        margin-bottom: 10px !important;
+    }
+    .vartical {
+        border: none !important;
+        height: 1000px;
+        position: absolute;
+        left: 70.3%;
+    }
+}
